@@ -1,7 +1,7 @@
 # COMP6771
 List of my C++ projects worked on during COMP6771 - Advanced C++ Programming
 
-#Dynamic Graph
+# Dynamic Graph
 Implementation for a Generic Directed Weighted graph (GDWG) with value-like semantics in C++. Both the data stored at a node and the weight stored at an edge will be of generic types. Both generic types may be different. For example, here is a graph with nodes storing std::string and edges weighted by int:
 
 gdwg::Graph<std::string,int> g;
@@ -10,10 +10,10 @@ Formally, this directed weighted graph G=(N,E) will consist of a set of nodes N 
 
 The implementation includes constructors, destructors, operator overloads, methods as well as a custom iterator for iterating over the graph.
 
-#Euclidean Vector
+# Euclidean Vector
 Implementation for a Euclidean Vector Class Library in C++. Includes constructors, operator overloads and friend functions.
 
-#Word Ladder
+# Word Ladder
 Implementation for a program that builds word ladders.
 
 A word ladder is a connection from one word to another word formed by changing one letter at a time with the constraint that at each step the sequence of letters still forms a valid word. For example, here is a word ladder connecting "code" to "data":
