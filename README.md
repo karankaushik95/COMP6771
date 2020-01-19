@@ -1,7 +1,7 @@
 # COMP6771
 List of my C++ projects worked on during COMP6771 - Advanced C++ Programming
 
-# Dynamic Graph
+# Dynamic Graph (done as a pair)
 Implementation for a Generic Directed Weighted graph (GDWG) with value-like semantics in C++. Both the data stored at a node and the weight stored at an edge will be of generic types. Both generic types may be different. For example, here is a graph with nodes storing std::string and edges weighted by int:
 
 gdwg::Graph<std::string,int> g;
